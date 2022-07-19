@@ -33,6 +33,11 @@ article{
     border: 2px solid red;
     transition: all 0.4s ease-in-out;
 }
+#match-btn1:hover{
+    background-color: black;
+    border: 2px solid red;
+    transition: all 0.4s ease-in-out;
+}
 
 
 /* hero section start */
