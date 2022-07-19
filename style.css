@@ -211,3 +211,45 @@ hr{
     margin: 10px;
 }
 /* footer design */
+
+/* match section design */
+.flag{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.country-name{
+    text-align: center;
+}
+.blog-title1{
+    margin: 5px 20px;
+}
+.country-name{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+#match-time{
+    text-align: center;
+    color: #9F9F9F;
+    margin-left: 65px;
+}
+#match{
+    /* background-color: blue; */
+    width: 312px;
+    height: 242px;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+}
+#match-btn1{
+    padding: 12px 36px;
+    background-color:red;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+#blog-btn1{
+    padding: 12px 82px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
