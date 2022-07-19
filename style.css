@@ -1,8 +1,213 @@
+/* font import */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* universal sytles */ 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
-    background-color: blue;
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
 }
+article{
+    width: 312px;
+    height: 362px;
+    /* background-color: aqua; */
+}
+/* hover effect */
+.hero-button:hover{
+    background-color: black;
+    border: 2px solid red;
+    transition: all 0.5s ease-in-out;
+}
+#blog-btn:hover{
+    background-color: black;
+    border: 2px solid red;
+    transition: all 0.4s ease-in-out;
+}
+
+
+/* hero section start */
+.hero-section{
+    height: 80vh;
+    width: 85vw;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    padding: 45px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+.text-area{
+    width: 50%;
+    /* height: 100%; */
+}
+.hero-headings{
+    color: #FFFFFF;
+    font-size: 65px;
+}
+.hero-para{
+    color: #FFFFFF;
+    font-size: 18px;
+}
+#arrow{
+    color: #FFFFFF;
+    padding-left: 10px;
+}
+.hero-button{
+    width: 187px;
+    height: 56px;
+    background: #DD0000;
+    border-radius: 5px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    align-items: center;
+    cursor: pointer;
+}
+.btn{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.image-area{
+    width: 50%;
+    /* height: 100%; */
+}
+.image-area img{
+    width: 551px;
+    height: 570px;
+    margin-top: 47px;
+}
+/* hero section end */
+/* card section start */
+.card-section{
+    height: 100vh;
+    width: 85vw;
+    background-color: #FFFFFF;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    
+}
+.buttons{
+    height: 100%;
+    width: 25%;
+    /* background-color: aqua; */
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.button{
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.button a{
+    text-decoration: none;
+    color: black;
+}
+#match-btn{
+    padding: 12px 30px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+#group-btn{
+    padding: 12px 65px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+#blog-btn{
+    padding: 12px 87px;
+    background-color:red;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+#icon-color{
+    color: #9F9F9F;
+}
+.fa-regular{
+    padding-left: 20px;
+}
+.cards{
+    height: 100%;
+    width: 75%;
+    margin-right: 22px;
+}
+.card{
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 10px;
+   
+}
+.transfer-btn{
+    width: 100px;
+    height: 32px;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+.transfer-btn a{
+    font-size: 16px;
+    color: #161616;
+    text-decoration: none;
+    
+}
+.blog-title{
+    color: #161616;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+/* card section end */
+footer{
+    height: 40vh;
+    width: 100vw;
+    background-color: black;
+}
+.footer-heading{
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 90px;
+}
+hr{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 30px;
+    width: 80%;
+    margin-left: 150px;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
+    margin-top: 20px;
+}
+.item ul{
+    display: flex;
+    
+}
+.item ul li{
+    list-style: none;
+}
+.item ul li a{
+    text-decoration: none;
+    color: #9F9F9F;
+    margin: 10px;
+}
+/* footer design */
